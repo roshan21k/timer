@@ -17,8 +17,10 @@ body {
   max-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  overflow: hidden;
 }
 h1 {
   font-weight: lighter;
