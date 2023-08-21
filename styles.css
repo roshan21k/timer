@@ -17,7 +17,6 @@ body {
   max-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   justify-items: center;
   align-items: center;
 }
