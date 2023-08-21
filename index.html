@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat&family=Dancing+Script&family=Edu+SA+Beginner&family=Handjet:wght@300&family=Montserrat+Alternates&family=Orbitron:wght@400;500&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="load"></div>
+    <!-- <header>COUNTDOWN!</header> -->
+    <div class="timer">
+      <h1 class="heading">Timer</h1>
+      <div class="time">
+        <div class="hour">00</div>
+        <span>:</span>
+        <div class="min">00</div>
+        <span>:</span>
+        <div class="seconds">00</div>
+      </div>
+      <form>
+        <div>
+          <input type="time" id="timeinput" value="00:05:00" step="1" />
+        </div>
+        <div class="timer_buttons">
+          <button type="button" id="gettime">Start</button>
+          <button type="reset_time">Reset</button>
+          <button type="focus">Focus 💡</button>
+        </div>
+        <div class="quick_set">
+          <button data-value="00:10:00">10 min</button>
+          <button data-value="00:15:00">15 min</button>
+          <button data-value="00:30:00">30 min</button>
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
