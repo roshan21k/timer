@@ -71,9 +71,4 @@ button:hover {
   transform: scale(110%);
   transition: 0.5s;
 }
-
-@media (max-width: 600px) {
-  .timer {
-    height: 70vh;
-  }
-}
+/* 
