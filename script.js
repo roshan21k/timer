@@ -86,6 +86,7 @@ const getTimer = function (raw_input) {
     return;
   }
   startTimer(seconds);
+  getTime.textContent = "Stop";
   initialSeconds = seconds;
 };
 
@@ -103,7 +104,6 @@ getTime.addEventListener("click", function () {
     return;
   }
   getTimer(timeInput.value);
-  getTime.textContent = "Stop";
 });
 
 //Event listener for focus button
